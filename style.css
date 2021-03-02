@@ -1,0 +1,67 @@
+header
+{
+display: flex;
+justify-content: flex-end; 
+align-items : space-around; 
+}
+
+ul
+{
+justify-content: flex-end; 
+align-items : space-around; 
+}
+
+body 
+{
+	font-family: "roboto", sans-sérif, Arial, verdana;
+	font-size: 13px;
+}
+
+
+#conteneur 
+{
+display :flex;
+justify-content:center; 
+}
+
+#barrederecherche
+{
+display : flex;
+justify-content:center; 
+}
+
+#boutons
+{
+display : flex;
+justify-content:center; 
+color: #FFFFFF;
+}
+
+#barrederecherche:nth-child(2)
+input 
+{
+border-radius: 20px;
+padding: 8px;
+margin :8px;
+border: 1px #C0C0C0 solid;
+}
+
+
+footer 
+{
+background-color: #F2F2F2;
+margin: 2px;
+padding:5px;
+padding-bottom: 10px;
+font-size: 11px;
+position: absolute; bottom: 0; left: 0; right: 0;
+}
+
+
+#Mentions
+{
+display : flex;
+padding-bottom: 5px;
+justify-content: space-between; 
+align-items: flex-end;
+}
